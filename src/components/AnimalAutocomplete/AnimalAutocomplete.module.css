@@ -1,3 +1,11 @@
+.loadingText {
+  font-family: "Nunito", sans-serif;
+  color: #61acfc;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 40px;
+}
+
 .formContainer {
   display: flex;
   align-items: center;
@@ -69,16 +77,16 @@
 
 .dropdown {
   position: absolute;
-  top: 70%; /* Розташовує дропдаун прямо під інпутом */
+  top: 70%;
   left: 0;
   font-family: "Nunito", sans-serif;
   font-size: large;
-  width: 100%; /* Дропдаун буде такої ж ширини, як і контейнер */
+  width: 100%;
   border: 2px solid #015fc3;
   border-radius: 10px;
   background-color: #fff;
   list-style: none;
   padding: 6px;
   z-index: 1;
-  box-sizing: border-box; /* Враховує padding і border у ширині та висоті */
+  box-sizing: border-box;
 }

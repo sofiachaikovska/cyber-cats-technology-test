@@ -57,7 +57,7 @@ const AnimalAutocomplete = () => {
   return (
     <div className={css.autocompleteContainer}>
       {isLoading ? (
-        <p>Loading...</p>
+        <p className={css.loadingText}>Loading...</p>
       ) : (
         <div className={css.formContainer}>
           <h1 className={css.formTitle}>
